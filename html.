@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: #333; background-color: #f4f4f4; }
+        header { background: #24292e; color: #fff; padding: 1rem 0; text-align: center; position: sticky; top: 0; }
+        
+        /* Layout */
+        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        
+        /* Profile Section */
+        .profile { text-align: center; padding: 20px 0; }
+        .profile h1 { margin: 10px 0; color: #007bff; }
+        
+        /* Projects Grid */
+        .project-card { border-left: 5px solid #007bff; background: #f9f9f9; padding: 15px; margin: 15px 0; border-radius: 4px; }
+        .project-card h3 { margin-top: 0; }
+
+        /* Footer */
+        footer { text-align: center; padding: 20px; font-size: 0.8rem; color: #777; }
+        
+        /* Links */
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>My Digital Workspace</h2>
+    </header>
+
+    <div class="container">
+        <section class="profile">
+            <h1>Hi, I'm [politedemon1] 👋</h1>
+            <p>Aspiring Developer | GitHub Enthusiast | Tech Learner</p>
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am currently learning how to use GitHub and web development to build cool things. I'm interested in solving problems and creating clean, user-friendly applications.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="project-card">
+                <h3>🚀 Project One: Portfolio Site</h3>
+                <p>A static website hosted on GitHub Pages to showcase my journey into tech.</p>
+                <a href="#">View Code</a>
+            </div>
+
+            <div class="project-card">
+                <h3>📂 Project Two: Coming Soon</h3>
+                <p>Working on something exciting! Stay tuned for updates.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via <a href="mailto:your-email@example.com">Email</a> or follow my journey on <a href="https://github.com/yourusername">GitHub</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 [politedemon1]. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
